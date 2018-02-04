@@ -19,7 +19,7 @@ export class LoginService {
   }
 
   login(user: User) {
-    return Kinvey.User.login(user.username, user.password);
+    return Kinvey.User.login(user.email, user.password);
   }
 
   loginWithMIC() {
