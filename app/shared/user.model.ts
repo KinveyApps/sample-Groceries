@@ -1,4 +1,4 @@
-import * as EmailValidator from 'email-validator';
+import * as validator from 'email-validator';
 
 export class User {
   username?: string;
