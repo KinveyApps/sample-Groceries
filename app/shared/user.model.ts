@@ -1,7 +1,6 @@
-const validator = require("email-validator");
+import * as validator from 'email-validator';
 
 export class User {
-  username?: string;
   email?: string;
   password: string;
 
